@@ -1,0 +1,23 @@
+
+#navbar{
+ display: flex;
+ justify-content: space-around;
+}
+#search{
+ display: block;
+ margin: auto;
+ margin-top: 20px;
+ padding: 10px;
+ font-size: large;
+}
+#movies{
+ margin-top: 20px;
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ grid-template-rows: auto;
+ gap: 15px;
+}
+#movies>div>img{
+ height: 300px;
+ width: 98%;
+}
